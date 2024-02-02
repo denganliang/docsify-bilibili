@@ -2,7 +2,7 @@ function plugin(hook, vm) {
     hook.beforeEach(function(content) {
       var match = content.match(/- Bilibili video((?:\n- .*)+)/);
       if (match) {
-        var lines = match[1].split('\r\n');
+        var lines = match[1].split('\n');
         lines.shift(); // delete first elem
         var videos = lines.map(function(line) {
           line = '<div style="width: 600px; height: 400px;flex-grow: 0;min-width: 100px;margin: 10px;"><iframe src="//player.bilibili.com/player.html?' + line.slice(2).trim() +
