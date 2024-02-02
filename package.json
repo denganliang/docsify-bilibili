@@ -1,6 +1,6 @@
 {
   "name": "docsify-bilibili",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "add bilibili video iframe to md, list video",
   "main": "bilibili.js",
   "scripts": {
