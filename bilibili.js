@@ -1,6 +1,6 @@
 function plugin(hook, vm) {
     hook.beforeEach(function(content) {
-      var match = content.match(/- Bilibili video((?:\r\n- .*)+)/);
+      var match = content.match(/- Bilibili video((?:\n- .*)+)/);
       if (match) {
         var lines = match[1].split('\r\n');
         lines.shift(); // delete first elem
