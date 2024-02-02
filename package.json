@@ -1,0 +1,25 @@
+{
+  "name": "docsify-bilibili",
+  "version": "1.0.0",
+  "description": "add bilibili video iframe to md, list video",
+  "main": "bilibili.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "uglifyjs ./bilibili.js -c -m -o ./bilibili.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denganliang/docsify-bilibili.git"
+  },
+  "keywords": [
+    "docsify",
+    "plugin",
+    "bilibili"
+  ],
+  "author": "denganliang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denganliang/docsify-bilibili/issues"
+  },
+  "homepage": "https://github.com/denganliang/docsify-bilibili#readme"
+}
